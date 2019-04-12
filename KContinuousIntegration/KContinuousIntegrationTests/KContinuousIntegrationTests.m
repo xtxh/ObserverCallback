@@ -23,8 +23,12 @@
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    NSInteger num1 = 10;
+    NSInteger num2 = 20;
+    
+    XCTAssertEqual(num1, num2,@"两个数字必须相等");
+    
 }
 
 - (void)testPerformanceExample {
